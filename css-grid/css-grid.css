@@ -1,0 +1,43 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.wrapper div {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  padding: auto;
+  vertical-align: middle;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: green;
+}
+
+.item2 {
+  background-color: darkgoldenrod;
+}
+
+.item3 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: blue;
+}
+
+.item4 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: maroon;
+}
+
+.item5 {
+  background-color: lightseagreen;
+}
+
+.item6 {
+  background-color: brown;
+}
